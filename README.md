@@ -1,7 +1,7 @@
 # ddtd
 
-动态分布式任务调度（Dynamic-Distributed-Task-Dispatcher），包含动态组件构建的任务工作台，当然也可以仅使用调度，构建自己的前端
-
+主动式动态分布式任务调度（Dynamic-Distributed-Task-Dispatcher），包含动态组件构建的任务工作台，当然也可以仅使用调度，构建自己的前端
+> 不同于Elastic-Job，xxx-Job等被动式任务调度（常见于通过cron配置后进行周期性轮询），用户可以在发起调用后，立即进行分布式处理
 ## 设计图
 * 整体流程图
 ![alt 流程图](流程图.jpg)
